@@ -4,3 +4,22 @@
     --accent-color: #E2D1D1;
     --footer-color: #7FD7F7;
 }
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #D8BFD8;
+    background-color: #F8FF;
+}
+
+.icon i{
+    font-size: 40px;
+    color: green;
+}
+
+body{
+    background-color: var(--primary-color);
+}
